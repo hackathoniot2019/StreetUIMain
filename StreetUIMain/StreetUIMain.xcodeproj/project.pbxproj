@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		69527BFB224F697D00E2672E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69527BFA224F697D00E2672E /* AppDelegate.swift */; };
-		69527BFD224F697D00E2672E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69527BFC224F697D00E2672E /* ViewController.swift */; };
-		69527C00224F697D00E2672E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69527BFE224F697D00E2672E /* Main.storyboard */; };
 		69527C02224F697F00E2672E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69527C01224F697F00E2672E /* Assets.xcassets */; };
 		69527C05224F697F00E2672E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69527C03224F697F00E2672E /* LaunchScreen.storyboard */; };
+		69527C0D224F6EBB00E2672E /* MainViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69527C0C224F6EBB00E2672E /* MainViewControler.swift */; };
+		69527C36224FAA5C00E2672E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69527C35224FAA5C00E2672E /* Extension.swift */; };
+		69527C38224FB0EA00E2672E /* SlideOutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69527C37224FB0EA00E2672E /* SlideOutMenu.swift */; };
+		69527C3A224FBF0900E2672E /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69527C39224FBF0900E2672E /* SearchCell.swift */; };
+		69527C3C224FC75100E2672E /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69527C3B224FC75100E2672E /* LoginForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69527BF7224F697D00E2672E /* StreetUIMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetUIMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69527BFA224F697D00E2672E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69527BFC224F697D00E2672E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69527BFF224F697D00E2672E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69527C01224F697F00E2672E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69527C04224F697F00E2672E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69527C06224F697F00E2672E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69527C0C224F6EBB00E2672E /* MainViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControler.swift; sourceTree = "<group>"; };
+		69527C35224FAA5C00E2672E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		69527C37224FB0EA00E2672E /* SlideOutMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutMenu.swift; sourceTree = "<group>"; };
+		69527C39224FBF0900E2672E /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		69527C3B224FC75100E2672E /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +60,13 @@
 		69527BF9224F697D00E2672E /* StreetUIMain */ = {
 			isa = PBXGroup;
 			children = (
+				69527C35224FAA5C00E2672E /* Extension.swift */,
+				69527C39224FBF0900E2672E /* SearchCell.swift */,
 				69527BFA224F697D00E2672E /* AppDelegate.swift */,
-				69527BFC224F697D00E2672E /* ViewController.swift */,
-				69527BFE224F697D00E2672E /* Main.storyboard */,
+				69527C0C224F6EBB00E2672E /* MainViewControler.swift */,
+				69527C3B224FC75100E2672E /* LoginForm.swift */,
 				69527C01224F697F00E2672E /* Assets.xcassets */,
+				69527C37224FB0EA00E2672E /* SlideOutMenu.swift */,
 				69527C03224F697F00E2672E /* LaunchScreen.storyboard */,
 				69527C06224F697F00E2672E /* Info.plist */,
 			);
@@ -124,7 +133,6 @@
 			files = (
 				69527C05224F697F00E2672E /* LaunchScreen.storyboard in Resources */,
 				69527C02224F697F00E2672E /* Assets.xcassets in Resources */,
-				69527C00224F697D00E2672E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69527BFD224F697D00E2672E /* ViewController.swift in Sources */,
+				69527C0D224F6EBB00E2672E /* MainViewControler.swift in Sources */,
+				69527C3C224FC75100E2672E /* LoginForm.swift in Sources */,
+				69527C3A224FBF0900E2672E /* SearchCell.swift in Sources */,
+				69527C38224FB0EA00E2672E /* SlideOutMenu.swift in Sources */,
 				69527BFB224F697D00E2672E /* AppDelegate.swift in Sources */,
+				69527C36224FAA5C00E2672E /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		69527BFE224F697D00E2672E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69527BFF224F697D00E2672E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		69527C03224F697F00E2672E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
